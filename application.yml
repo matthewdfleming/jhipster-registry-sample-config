@@ -4,12 +4,16 @@
 
 # Property used on app startup to check the config server status
 configserver:
-    name: JHipster Registry config server
-    status: Connected to the JHipster Registry config server, using https://github.com/jhipster/jhipster-registry-sample-config !
+    name: Cresset Registry config server
+    status: Connected to the Cresset Registry config server, using https://github.com/matthewdfleming/jhipster-registry-sample-config !
 
 # Default JWT secret token (to be changed in production!)
 jhipster:
     security:
         authentication:
             jwt:
-                secret: my-secret-token-to-change-in-production
+                secret: we-dont-use-jwt
+                
+logging:
+    path: /tmp
+    file: ${spring.application.name}.log                
