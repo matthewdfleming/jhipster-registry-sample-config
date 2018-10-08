@@ -12,7 +12,7 @@ jhipster:
     security:
         authentication:
             jwt:
-                secret: we-dont-use-jwt
+                secret: this-secret-needs-to-be-overridden-in-system-properties
                 
 logging:
     path: /tmp
