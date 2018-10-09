@@ -16,7 +16,8 @@ jhipster:
 spring:
     cloud:
         config:
-            override-none: true                
+            override-none: true
+            override-system-properties: false
                 
 logging:
     path: /tmp
