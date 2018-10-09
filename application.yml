@@ -13,6 +13,10 @@ jhipster:
         authentication:
             jwt:
                 secret: too-small-on-purpose
+spring:
+    cloud:
+        config:
+            override-none: true                
                 
 logging:
     path: /tmp
